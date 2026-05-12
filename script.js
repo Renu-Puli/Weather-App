@@ -1,6 +1,6 @@
 async function getWeather() {
     const city = document.getElementById("city").value;
-    const apiKey = "Your_API_Key";
+    const apiKey = "135044f2590fdbd15b5ad868d39f75c0";
 
     if (city === "") {
         showError("Please enter a city name!");
@@ -44,4 +44,3 @@ function showError(msg) {
     document.getElementById("error").textContent = msg;
     document.getElementById("weather-result").classList.add("hidden");
 }
-
